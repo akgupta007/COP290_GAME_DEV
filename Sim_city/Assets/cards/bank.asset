@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5d8d38904fc08498589b90125927c7, type: 3}
   m_Name: bank
   m_EditorClassIdentifier: 
-  cardvalue: -1000000
   cardname: bank

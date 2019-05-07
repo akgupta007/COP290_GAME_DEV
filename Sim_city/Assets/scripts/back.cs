@@ -5,14 +5,9 @@ using UnityEngine;
 public class back : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    public GameObject zoomObj;
+    public void switch_back()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        zoomObj.SetActive(false);
     }
 }

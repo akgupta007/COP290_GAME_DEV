@@ -62,14 +62,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\bankrate.cs" />
+    <Compile Include="Assets\borrowsum.cs" />
+    <Compile Include="Assets\deficit.cs" />
+    <Compile Include="Assets\gamebox.cs" />
     <Compile Include="Assets\gamelogic.cs" />
+    <Compile Include="Assets\next.cs" />
+    <Compile Include="Assets\printDebt.cs" />
+    <Compile Include="Assets\printEco.cs" />
+    <Compile Include="Assets\printHDI.cs" />
     <Compile Include="Assets\printmoney.cs" />
+    <Compile Include="Assets\printPollution.cs" />
+    <Compile Include="Assets\printPopulation.cs" />
     <Compile Include="Assets\printscore.cs" />
+    <Compile Include="Assets\publiccount.cs" />
+    <Compile Include="Assets\repaysum.cs" />
     <Compile Include="Assets\scripts\back.cs" />
     <Compile Include="Assets\scripts\card.cs" />
     <Compile Include="Assets\scripts\cardviz.cs" />
+    <Compile Include="Assets\scripts\countrydata.cs" />
     <Compile Include="Assets\scripts\loadnext.cs" />
     <Compile Include="Assets\scripts\zoom.cs" />
+    <Compile Include="Assets\taxrate.cs" />
+    <Compile Include="Assets\taxupdate.cs" />
+    <Compile Include="Assets\year.cs" />
     <None Include="Assets\StreetViewPack\mosqueYard\url.txt" />
     <None Include="Assets\StreetViewPack\coloredNight\url.txt" />
     <None Include="Assets\StreetViewPack\dairyShop\url.txt" />

@@ -19,7 +19,13 @@ public class cardviz : MonoBehaviour
         if (c == null) return;
         card = c;
         title.text = c.cardname;
-        value.text = c.cardvalue.ToString();
+        //value.text = c.cardvalue.ToString();
+        value.text = FindObjectOfType<gamelogic>().value(title).ToString("0");
+    }
+
+    private void Update()
+    {
+        value.text = FindObjectOfType<gamelogic>().value(title).ToString("0");
     }
 }
 

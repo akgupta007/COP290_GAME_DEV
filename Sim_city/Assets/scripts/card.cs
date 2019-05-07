@@ -5,7 +5,5 @@ using UnityEngine;
 [CreateAssetMenu (menuName = "Card")]
 public class card : ScriptableObject
 {
-    public float cardvalue;
     public string cardname;
-
 }

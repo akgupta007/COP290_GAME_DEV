@@ -6,9 +6,9 @@ public class printscore : MonoBehaviour
     // Start is called before the first frame update
 
     public Text scoretext;
-    public gamelogic gamelogic;
-    void Start()
+
+    private void Update()
     {
-        scoretext.text = gamelogic.getscore().ToString();
+        scoretext.text = FindObjectOfType<gamelogic>().getscore().ToString();
     }
 }
